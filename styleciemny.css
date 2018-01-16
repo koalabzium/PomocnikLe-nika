@@ -1,0 +1,184 @@
+.rozp{
+   background: url("images/iglaste.jpg");
+   display: none;
+   color: white;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bg-light{
+  background-color: #343a40!important;
+}
+
+
+.bg-dark {
+    background: url("images/iglaste.jpg");
+    color: black;
+}
+
+
+
+
+header, footer {
+  clear: left;
+  color: white;
+  padding: 1em;
+  text-align: center;
+
+}
+
+
+.drzewa{
+  width: 100%;
+}
+
+body{
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.nav-link {
+  color: white;
+}
+
+.form-control{
+  background: #313D42;
+}
+.nana{
+  border-radius: 5rem;
+}
+
+a{
+  color:white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.carousel-caption{
+  color:black;
+  bottom: 25%;
+}
+
+@media (min-width: 100px){
+.d-md-block {
+    display: block!important;
+}}
+
+.dropdown-toggle{
+  float:right;
+}
+#inner, #inner2{
+  width: 50%;
+  width: 20rem; 
+  margin: 0 auto;
+}
+
+.col-sm-6{
+  padding: 2em;
+}
+
+.nav-pills .nav-link {
+  border-radius: .100rem;
+}
+
+.carousel{
+  border-radius:.5rem;
+}
+
+.card-img-right{
+  width: 60%; 
+  height: auto;
+}
+
+.nav-tabContent{
+  padding: 1em;
+}
+
+h1{
+  font-size: 250%;
+}
+
+
+h2{
+  font-size:200%;
+}
+
+
+
+@media only screen and (max-width: 750px) {
+  h2 {
+    font-size:150%;
+  }
+  h1{
+    font-size: 200%;
+  }
+  p{
+    font-size:75%;
+  }
+  .dropdown-toggle{
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  h2 {
+    font-size:100%;
+  }
+  h1{
+    font-size:200%;
+  }
+  #inner, #inner2 {
+    width: 50%;
+    width: 15rem; 
+    margin: 0 auto;
+  }
+
+}
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  min-height: 200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
+
+.tab-content{
+  padding: 1em;
+}
+
+.komentarze{
+  width:60%;
+}
+
+.error {
+  background: #f2dede; 
+  border-radius: 5px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  margin: 0px auto; 
+  padding: 10px; 
+  text-align: center;
+  width: 50%; 
+}
+
+
+
+
+
+
+
