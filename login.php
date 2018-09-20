@@ -15,7 +15,7 @@
     </div>
     <div class="form-group">
       <label>Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Wpisz hasło" name="password">
+      <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Wpisz hasło" name="password">
       <small id="emailHelp" class="form-text text-muted">Jeśli nie pamiętasz hasła to bardzo mi przykro.</small>
     </div>
     <div class="form-group">
