@@ -12,7 +12,6 @@
 <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 <link id="stylesheet-link" rel="stylesheet" href="styleciemny.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Codystar">
-<link rel="stylesheet" href="styl.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -20,8 +19,6 @@
 
 <script src="javovyskrypt.js"></script>
 
-
-<script src="snieg.js"></script>
 
 </head>
 
@@ -49,11 +46,11 @@
   <?php endif ?>
   <?php  if (!isset($_SESSION['username'])) : ?>
     <li class="nav-item">
-             
+
       <a href="login.php"><p>  <i class="fa fa-heart" aria-hidden="true"></i>Zaloguj się    </p></a>
     </li>
     <li class="nav-item">
-              
+
       <a href="register.php"> <p> <i class="fa fa-leaf" aria-hidden="true"></i> Zarejestruj się</p></a>
     </li><?php endif ?>
   </ul>
