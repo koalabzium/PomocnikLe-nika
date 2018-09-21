@@ -24,20 +24,12 @@ if (isset($_GET['logout'])) {
 
 <?php include('chorwacja.php'); ?>
 
-
-
-
-<div class="row">
-<div class="col-sm-8 float-none tab-content" >
-
-
-
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src="images/karuzela0.jpg" alt="First slide">
-        <div class="carousel-caption d-none d-md-block">
-         <h2>Dzień dobry<?php  if (isset($_SESSION['username'])){echo ", ", $_SESSION['username'];} ?>!</h2>
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/karuzela0.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+       <h2 class = "carousel-text">Dzień dobry<?php  if (isset($_SESSION['username'])){echo ", ", $_SESSION['username'];} ?>!</h2>
 
       <?php  if (isset($_SESSION['username']) && $_SESSION['username']=="koala") : ?>
         <h3>Jesteś adminem na tym dancingu. </h3>
@@ -68,26 +60,34 @@ if (isset($_GET['logout'])) {
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-  </div></div>
-
-  <div class="col-sm-4 float-none" style = "padding: 1em">
-    <div class="alert alert-primary tab-content" role="alert">
-      <h2>Kącik wróżb </h2>
-      <p>Wybierz swoje drzewo i zobacz, co czeka Cię w roku 2018! </p>
-
-<img src="images/modrzew.jpg" id="modrzew" class="drzewa" onclick="diffImage(this)" alt="drzewo">
-<img src="images/klonklon.jpg" id="klonklon" class="drzewa" onclick="diffImage(this)" alt="drzewo">
-<img src="images/olcha.jpg" id="olcha" class="drzewa" onclick="diffImage(this)" alt="drzewo">
-<img src="images/mirt.jpg" id="mirt" class="drzewa" onclick="diffImage(this)" alt="drzewo">
-<img src="images/sliwka.jpg" id="sliwka" class="drzewa" onclick="diffImage(this)" alt="drzewo">
-<img src="images/dab.jpg" id="dab" class="drzewa" onclick="diffImage(this)" alt="drzewo" />
-<img src="images/lipalipa.jpg" id="lipalipa" class="drzewa" onclick="diffImage(this)" alt="drzewo">
-<img src="images/kasztan.jpg" id="kasztan" class="drzewa" onclick="diffImage(this)" alt="drzewo">
-<img src="images/wierzba.jpg" id="wierzba" class="drzewa" onclick="diffImage(this)" alt="drzewo">
+  </div>
 
 
+
+
+
+
+<div class="container float">
+  <h2>Kącik wróżb </h2>
+  <p>Wybierz swoje drzewo i zobacz, co czeka Cię w roku 2018! </p>
+  <div class="row" >
+    <div class="col-sm">
+      <img src="images/modrzew.jpg" id="modrzew" class="drzewa rounded float-left mx-auto" onclick="diffImage(this)" alt="drzewo">
+      <img src="images/klonklon.jpg" id="klonklon" class="drzewa rounded mx-auto float-right" onclick="diffImage(this)" alt="drzewo">
+      <img src="images/olcha.jpg" id="olcha" class="drzewa" onclick="diffImage(this)" alt="drzewo">
     </div>
+    <div class="col-sm">
+      <img src="images/mirt.jpg" id="mirt" class="drzewa" onclick="diffImage(this)" alt="drzewo">
+      <img src="images/sliwka.jpg" id="sliwka" class="drzewa" onclick="diffImage(this)" alt="drzewo">
+      <img src="images/dab.jpg" id="dab" class="drzewa" onclick="diffImage(this)" alt="drzewo" />
     </div>
+    <div class="col-sm">
+      <img src="images/lipalipa.jpg" id="lipalipa" class="drzewa" onclick="diffImage(this)" alt="drzewo">
+      <img src="images/kasztan.jpg" id="kasztan" class="drzewa" onclick="diffImage(this)" alt="drzewo">
+      <img src="images/wierzba.jpg" id="wierzba" class="drzewa" onclick="diffImage(this)" alt="drzewo">
+    </div>
+  </div>
+</div>
 
 </div>
 

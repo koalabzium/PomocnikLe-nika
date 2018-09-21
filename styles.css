@@ -1,3 +1,6 @@
+@import "normalize.css";
+
+
 header, footer {
 
   background: url("images/listki.jpg");
@@ -8,8 +11,9 @@ header, footer {
 
 }
 
-
-
+.nav-link {
+  padding: 0.3 1rem;
+}
 
 .rozp{
    display: none;
@@ -24,11 +28,9 @@ header, footer {
 }
 
 
-
-
-
 .drzewa{
-  width: 100%;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .nana{
@@ -63,7 +65,7 @@ body{
 }
 #inner, #inner2{
   width: 50%;
-  width: 20rem; 
+  width: 20rem;
   margin: 0 auto;
 }
 
@@ -80,7 +82,7 @@ body{
 }
 
 .card-img-right{
-	width: 60%; 
+	width: 60%;
 	height: auto;
 }
 
@@ -126,7 +128,7 @@ h2{
   }
   #inner, #inner2 {
     width: 50%;
-    width: 15rem; 
+    width: 15rem;
     margin: 0 auto;
   }
 
@@ -139,7 +141,7 @@ h2{
 /* Hide the carousel text when the screen is less than 600 pixels wide */
 @media (max-width: 600px) {
   .carousel-caption {
-    display: none; 
+    display: none;
   }
 }
 
@@ -152,13 +154,12 @@ h2{
 }
 
 .error {
-  background: #f2dede; 
-  border-radius: 5px; 
-  border: 1px solid #a94442; 
-  color: #a94442; 
-  margin: 0px auto; 
-  padding: 10px; 
+  background: #f2dede;
+  border-radius: 5px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  margin: 0px auto;
+  padding: 10px;
   text-align: center;
-  width: 50%; 
+  width: 50%;
 }
-
